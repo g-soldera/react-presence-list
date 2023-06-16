@@ -47,7 +47,7 @@ export function Home() {
     }
 
     fetchData()
-    
+
     return () => {
       clearInterval(intervalId)
     }
@@ -70,7 +70,7 @@ export function Home() {
             name="name"
             id="nameInput"
             value={inputValue}
-            placeholder="Type your name..."
+            placeholder="Type a name..."
             onChange={(e) => {
               setMemberName(e.target.value)
               handleInputChange(e.target.value)

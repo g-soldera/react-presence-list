@@ -10,7 +10,7 @@ export default function Card(props) {
   return (
     <>
       <div className="card">
-        <strong>{props.name ? props.name : "New Member"}</strong>
+        <strong>{props.name ? props.name : "Name"}</strong>
         <small>{props.time}</small>
       </div>
     </>
