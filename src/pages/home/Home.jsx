@@ -6,7 +6,7 @@ import "./Home.scss"
 import "../../components/button/Button.scss"
 import "../../components/input/Input.scss"
 
-export function Home() {
+export default function Home() {
   const [members, setMembers] = useState([])
   const [memberName, setMemberName] = useState()
   const [currentTime, setCurrentTime] = useState(new Date())
