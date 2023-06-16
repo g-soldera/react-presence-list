@@ -1,0 +1,53 @@
+.containerHome {
+  padding: 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  background-color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  height: 100vh;
+
+  header {
+    gap: 3rem;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    border-radius: 50%;
+    width: 5rem;
+  }
+
+  .user {
+    gap: 0.6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .inputArea {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .membersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+  }
+}

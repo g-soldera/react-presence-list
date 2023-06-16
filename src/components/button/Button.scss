@@ -1,0 +1,9 @@
+.button {
+  padding: 0 1rem;
+  font-size: 0.88rem;
+  background-color: rgb(65, 255, 192);
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
